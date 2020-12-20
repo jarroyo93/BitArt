@@ -1,0 +1,112 @@
+.iconobitart{
+    background: #000000;
+    padding-top: 15px;
+
+}
+
+.img_logo{
+
+    width: 150px;
+    height: 210px;
+    margin: 0 auto; /*primer valor: arriba y abajo - segundo valor:derecha e izquierda*/
+    display: block;
+
+}
+
+
+.main_header{
+
+    text-align: center;
+    width: 100%;
+    background: #000000;
+    font-size: 30px;
+    font-family: 'Segoe Print';
+
+}
+
+#boton_menu{
+
+    display: none;
+
+
+}
+
+
+header label{
+
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+
+.icono_menu{
+
+    padding-top: 30px;
+
+}
+
+.menu ul{
+
+    padding: 0;
+    margin: 0;
+    list-style: none; /* retiras las viñetas*/
+    display: inline-flex;
+
+}
+
+.menu li{
+
+    padding: 20px 25px 25px 25px; /*el orden va acorde a las manecillas del reloj*/
+
+
+}
+
+.menu li a{
+
+    text-decoration: none; /*quita el subrayado*/
+    color: white;
+}
+
+.menu li a:hover{ /*El hover le da un evento o cambio de estado*/
+
+   text-decoration: overline;
+    color: salmon;
+
+}
+
+
+
+@media (max-width:920px){
+    
+    header label{
+        display: block;
+        height: 75px;
+
+    }
+
+    .menu{
+        position: absolute;
+        background-color: salmon;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        z-index: 100;
+
+    }
+
+    #boton_menu:checked ~ .menu{
+
+        margin: 0;
+
+    }
+
+    .menu ul{
+
+        display: block;
+
+    }
+
+}
+

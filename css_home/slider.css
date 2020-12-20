@@ -1,0 +1,60 @@
+.SliderPortada{
+
+width: 100%;
+height: 450px;
+margin: auto;
+list-style: none;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: flex-end;  
+}
+
+.SliderPortada img{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.75s;
+}
+
+
+.SliderPortada input[type="radio"]{
+
+    position: relative;
+    z-index: 100;
+    margin: 10px;
+}
+
+.SliderPortada input[type="radio"]:checked ~ img{
+
+    opacity: 1;
+
+
+
+}
+
+/*       */
+
+@media (max-width: 600px){
+
+.SliderPortada{
+    width: 100%;
+    height: 400px;
+
+
+}
+
+
+}
+
+@media(min-width){
+
+    .SliderPortada{
+        width: 100%;
+        height: 400px;
+    }
+}

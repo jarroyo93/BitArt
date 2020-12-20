@@ -1,0 +1,93 @@
+*{
+
+    box-sizing: border-box; 
+}
+
+body{
+
+    margin: 0;
+    background-color: black;
+
+}
+
+.bloquetitulo{
+
+
+    font-size: 40px;
+    letter-spacing: 1px; /*Espacio entre letras de 1px*/
+    padding:45px 0px;
+    color: salmon;
+    text-align: center;
+    font-family: cursive;
+}
+
+.parrafotitulo{
+
+    letter-spacing: 1px;
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: -30px;
+
+}
+
+.iconart{
+
+    padding-top: 55px;
+   
+}
+
+.imgvenus{
+
+    
+    height: 120px;
+
+}
+
+.bloquetitulo2{
+
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin:0;
+    padding: 45px 0px;
+    text-align: center;
+    color: salmon;
+    font-family: cursive;
+    background-image: url(../img/fondovideo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.parrafotitulo2{
+
+
+    letter-spacing: 1px;
+    font-family: cursive;
+    color: black;
+    float: right;
+    font-size: 24px;
+    margin-right: 5%;
+
+}
+
+.fotografia{
+
+    text-align: center;
+    font-size: 40px;
+    color: salmon;
+    padding-bottom: 10%;
+
+}
+
+.fotobob{
+
+    width: 900px;
+    height: 700px;
+    display: block;
+    margin: 135px auto;
+    border-radius: 15px;
+
+
+}
